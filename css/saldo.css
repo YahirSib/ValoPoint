@@ -1,0 +1,180 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#menu{
+    box-shadow: -1px 18px 18px -10px rgba(0,0,0,0.56);
+    background-color: #062f4f !important;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #text{
+    color: white;
+  }
+  
+  #text-active{
+    color: white;
+    background-color: #a6161a;
+    padding: 1px 15px;
+    border-radius: 16px;
+  }
+
+  li.nav-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px 15px;
+      font-size: 1.2em;
+  }
+   
+  @media (min-width: 992px){
+    #offcanvasNavbar{
+      background-color: #062f4f !important;
+    } 
+  }
+  #offcanvasNavbar{
+    background-color: #062f4f;
+  }
+  .offcanvas-end {
+    width: auto !important; 
+  }
+  #bot{
+    border: none;
+    box-shadow: none;
+  }
+  #h5{
+    color: white;
+  }
+  #ham{
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240,240,240, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+  }
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    min-height: 100vh;
+}
+
+section.info{
+    margin-top: 60px;
+    width: 70%;
+    height: 480px;
+    min-height: 250px;
+    border: 3px solid #a6161a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.caja{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+div.caja p{
+    color: #062f4f;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+div.caja p span{
+    color: #a6161a;
+    font-style: oblique;
+}
+
+div.boton{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+a.btn{
+    border-radius: 16px;
+    background-color: #062f4f;
+    color: white;
+    padding: 2px 2px;
+    width: 130px;
+    border: none;
+    font-family: valorant;
+    font-size: 1.2em;
+}
+
+a.btn:hover{
+    color: white;
+}
+
+section.tit{
+    margin-top: 60px;
+    width: 30%;
+    height: 480px;
+    min-height: 250px;
+    background-color: #a6161a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+section.tit h1{
+    color: white;
+    font-family: valorant;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 0%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+section.tit h1.sub{
+    background-color: white;
+    color: #a6161a;
+}
+
+@media screen and (max-width: 780px) {
+  article{
+    width: 95%;
+    flex-wrap: wrap;
+  }
+
+  section.tit{
+    width: 95%;
+    margin-top: 110px;
+    align-items: normal;
+    height: auto;
+    order: 1;
+  }
+
+  section.tit h1{
+    text-align: center;
+  }
+
+  section.info{
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+}

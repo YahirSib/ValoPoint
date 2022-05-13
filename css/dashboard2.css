@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#menu{
+    box-shadow: -1px 18px 18px -10px rgba(0,0,0,0.56);
+    background-color: #062f4f !important;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #text{
+    color: white;
+  }
+  
+  #text-active{
+    color: white;
+    background-color: #a6161a;
+    padding: 1px 15px;
+    border-radius: 16px;
+  }
+
+  li.nav-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px 15px;
+      font-size: 1.2em;
+  }
+   
+  @media (min-width: 992px){
+    #offcanvasNavbar{
+      background-color: #062f4f !important;
+    } 
+  }
+  #offcanvasNavbar{
+    background-color: #062f4f;
+  }
+  .offcanvas-end {
+    width: auto !important; 
+  }
+  #bot{
+    border: none;
+    box-shadow: none;
+  }
+  #h5{
+    color: white;
+  }
+  #ham{
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240,240,240, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+  }
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: valorant;
+    color: #062f4f;
+    margin-bottom: 35px;
+    font-size: 3em;
+    text-align: center;
+}
+
+h1.num{
+    color: #a6161a;
+    text-align: center;
+}
+
+.btn{
+    color: #a6161a;
+    background-color: white;
+    padding: 1px 15px;
+    border-radius: 16px;
+    border: 2px solid #a6161a;
+}
+
+.btn:hover{
+    color: #a6161a;
+}
+
+div.botones{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
